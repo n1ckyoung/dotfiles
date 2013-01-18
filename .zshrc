@@ -52,4 +52,9 @@ alias pcode="cd ~/Dropbox/passionateproject/code/lib"
 alias reload="source ~/.zshrc; source ~/.bash_profile"
 
 # Python
-# alias prs="python -m SimpleHTTPServer"        # Simple python server
+alias pythonserver="python -m SimpleHTTPServer"        # Simple python server
+
+#Source the bashmarks
+source ~/.local/bin/bashmarks.sh
+
+
