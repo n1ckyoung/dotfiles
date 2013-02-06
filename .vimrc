@@ -7,7 +7,20 @@ syntax on
 
 filetype plugin indent on
 let g:pydiction_location = '~/.vim/vimfiles/ftplugin/pydiction/complete-dict'
-syntax enable
+
+"General config
+syntax enable	"Show syntax highlighting
+set title	"Show the name of the file
+set showmode 	"show current mode on bottom
+
+"Search
+set hlsearch	"highlight searches
+set ignorecase	"ignore search case
+set incsearch	"dynamic highlight with search pattern
+
+"Indentation
+set autoindent
+set smartindent
 
 filetype plugin indent on
 
@@ -18,5 +31,4 @@ colorscheme solarized
 
 "mapping
 "Maps autocomplete to tab
-imap <Tab> <C-N>
 map <F2> <Esc>:w<CR>:!%:p<CR>
